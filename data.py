@@ -13,31 +13,21 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Updates Channel ✨", url="https://t.me/MyOwnBots/")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+            InlineKeyboardButton("About 🤖", callback_data="about")
+        ]
     ]
 
     START = """
-Hey {}
+**Hey {}! Welcome to {}**
 
-Welcome to {}
-
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
-
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
-
-By @StarkBots
+You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
     """
 
     HELP = """
-✨ **Available Commands** ✨
+**Available Commands:**
 
 /about - About The Bot
 /help - This Message
@@ -45,18 +35,21 @@ By @StarkBots
 /generate - Generate Session
 /cancel - Cancel the process
 /restart - Cancel the process
+
+Thanks For Using This Bot 🤗
 """
 
     ABOUT = """
-**About This Bot** 
-
+**About Me:** 
 Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+**- Name :** Session String Generator
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+**- Channel :** @MyOwnBots
 
-Language : [Python](https://www.python.org)
+**- Framework :** [Pyrogram](https://docs.pyrogram.org)
 
-Developer : @StarkProgrammer
+**- Language :** [Python](https://www.python.org)
+
+**- Developer :** @vi2k6
     """
